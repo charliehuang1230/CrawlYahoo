@@ -7,7 +7,7 @@ Created on Mon Dec 12 10:21:14 2022
 
 import requests
 from bs4 import BeautifulSoup
-r = requests.get('https://www.google.com.tw/')
+r = requests.get('https://www.google.com.tw/search?q=apple')
 
 if r.status_code == 200:
     # print(r.text)
